@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "912069233376",
+    "project_id": "ms-multi-store",
+    "storage_bucket": "ms-multi-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912069233376:android:151c42dd4ed7c99cec9e85",
+        "android_client_info": {
+          "package_name": "com.example.ms_multi_web_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912069233376-m4i91qmu9e15ve0dp6p9svvtp3qen2mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2IugjMSUhuH503pS4QOgNQ1k3jZHT0hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912069233376-m4i91qmu9e15ve0dp6p9svvtp3qen2mp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "912069233376-7lpflh6phdco4kc1k1c61jf7a3injjqj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.msMultiStore.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912069233376:android:d2c22f7a1a1da962ec9e85",
+        "android_client_info": {
+          "package_name": "com.microraysolution.ms_multi_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912069233376-ijphg6dk4m83eqqi9iodca0cgi3u2pl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.microraysolution.ms_multi_store",
+            "certificate_hash": "90f26d3ef3dbf9bcdbe69517f4a4e26fc08cd36e"
+          }
+        },
+        {
+          "client_id": "912069233376-m4i91qmu9e15ve0dp6p9svvtp3qen2mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2IugjMSUhuH503pS4QOgNQ1k3jZHT0hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912069233376-m4i91qmu9e15ve0dp6p9svvtp3qen2mp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "912069233376-7lpflh6phdco4kc1k1c61jf7a3injjqj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.msMultiStore.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
