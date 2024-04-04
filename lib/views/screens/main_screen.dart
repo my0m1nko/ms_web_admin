@@ -53,7 +53,7 @@ class _MainScreenState extends State<MainScreen> {
             break;
       case UploadBannerScreen.routeName : 
             setState(() {
-              _selectedItem = const UploadBannerScreen();
+              _selectedItem =  const UploadBannerScreen();
             });
             break;
       default : setState(() {
@@ -110,8 +110,33 @@ class _MainScreenState extends State<MainScreen> {
         selectedRoute: '',
         onSelected: (item){
           screenSelector(item);
-        }
-
+        },
+            header: Container(
+          height: 50,
+          width: double.infinity,
+          color: const Color(0xff444444),
+          child: const Center(
+            child: Text(
+              'MS Store Admin Panel',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ),
+        footer: Container(
+          height: 50,
+          width: double.infinity,
+          color: const Color(0xff444444),
+          child: const Center(
+            child: Text(
+              'v.1.0.0',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ),
       ),
       body: _selectedItem,
     );
