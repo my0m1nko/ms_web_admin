@@ -3,6 +3,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:ms_multi_web_admin/views/screens/side_bar_screens/widgets/category_widget.dart';
 
 class CategoryScreen extends StatefulWidget {
   // const CategoryScreen({super.key});
@@ -215,7 +216,9 @@ class _CategoryScreenState extends State<CategoryScreen> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-          )
+          ),
+          const CategoryWidget()
+
           ],
         ),
 

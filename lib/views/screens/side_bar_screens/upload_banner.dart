@@ -3,6 +3,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:ms_multi_web_admin/views/screens/side_bar_screens/widgets/banner_widget.dart';
 
 class UploadBannerScreen extends StatefulWidget {
 
@@ -159,7 +160,22 @@ class _UploadBannerScreenState extends State<UploadBannerScreen> {
                   },
                   child: const Text('Save')),
             ],
-          )
+          ),
+          const Divider(
+            color: Colors.grey,
+          ),
+          Container(
+            alignment: Alignment.topLeft,
+            padding: const EdgeInsets.all(8.0),
+            child: const Text('Banners List',
+            style: TextStyle(
+              fontSize: 36,
+              fontWeight: FontWeight.bold
+            ),),
+            
+          ),
+          const BannerWidget()
+
         ],
       ),
     );
